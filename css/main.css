@@ -27,49 +27,127 @@ h1 {
 }
 
 #narwhal-eye{
-  animation: ;
-  stroke-dasharray: 72.624px;
-  stroke-dashoffset: 72.624px;
+  animation: draw-eye 1s ease-in forwards;
   }
 
+@keyframes draw-eye {
+  0% {
+
+  }
+
+  100% {
+
+  }
+}
+
 #rainbow-violet {
-  animation: ;
+  animation: draw-violet 1s .5s ease-in forwards;
   stroke-dasharray: 1917.625px;
   stroke-dashoffset: 1917.625px;
 }
 
+@keyframes draw-violet {
+  0% {
+    stroke-dashoffset: 1917.625px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-indigo {
-  animation: ;
+  animation: draw-indigo 1s .5s ease-in forwards;
   stroke-dasharray: 1812.502px;
   stroke-dashoffset: 1812.502px;
 }
 
+@keyframes draw-indigo {
+  0% {
+    stroke-dashoffset: 1812.502px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-blue {
-  animation: ;
+  animation: draw-blue 1s .5s ease-in forwards;
   stroke-dasharray: 1705.479px;
   stroke-dashoffset: 1705.479px;
 }
 
+@keyframes draw-blue {
+  0% {
+    stroke-dashoffset: 1705.479px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-green {
-  animation: ;
+  animation: draw-green 1s .5s ease-in forwards;
   stroke-dasharray: 1596.043px;
   stroke-dashoffset: 1596.043px;
 }
 
+@keyframes draw-green {
+  0% {
+    stroke-dashoffset: 1596.043px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-yellow {
-  animation: ;
+  animation: draw-yellow 1s .5s ease-in forwards;
   stroke-dasharray: 1483.352px;
   stroke-dashoffset: 1483.352px;
 }
 
+@keyframes draw-yellow {
+  0% {
+    stroke-dashoffset: 1483.352px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-orange {
-  animation: ;
+  animation: draw-orange 1s .5s ease-in forwards;
   stroke-dasharray: 1366.26px;
   stroke-dashoffset: 1366.26px;
 }
 
+@keyframes draw-orange {
+  0% {
+    stroke-dashoffset: 1366.26px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
 #rainbow-red {
-  animation: ;
+  animation: draw-red 1s .5s ease-in forwards;
   stroke-dasharray: 1243.044px;
   stroke-dashoffset: 1243.044px;
+}
+
+@keyframes draw-red {
+  0% {
+    stroke-dashoffset: 1243.044px;
+  }
+
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
