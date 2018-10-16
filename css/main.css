@@ -11,39 +11,65 @@ h1 {
 }
 
 #narwhal-body {
-  animation: ;
+  animation: draw-body 1s ease-in forwards;
   stroke-dasharray: 1908.791px;
   stroke-dashoffset: 1908.791px;
 }
 
-#narwhal-eye{
+@keyframes draw-body {
+  0% {
+    stroke-dashoffset: 1908.791px;
+  }
 
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+#narwhal-eye{
+  animation: ;
+  stroke-dasharray: 72.624px;
+  stroke-dashoffset: 72.624px;
   }
 
 #rainbow-violet {
-
+  animation: ;
+  stroke-dasharray: 1917.625px;
+  stroke-dashoffset: 1917.625px;
 }
 
 #rainbow-indigo {
-
+  animation: ;
+  stroke-dasharray: 1812.502px;
+  stroke-dashoffset: 1812.502px;
 }
 
 #rainbow-blue {
-
+  animation: ;
+  stroke-dasharray: 1705.479px;
+  stroke-dashoffset: 1705.479px;
 }
 
 #rainbow-green {
-
+  animation: ;
+  stroke-dasharray: 1596.043px;
+  stroke-dashoffset: 1596.043px;
 }
 
 #rainbow-yellow {
-
+  animation: ;
+  stroke-dasharray: 1483.352px;
+  stroke-dashoffset: 1483.352px;
 }
 
 #rainbow-orange {
-
+  animation: ;
+  stroke-dasharray: 1366.26px;
+  stroke-dashoffset: 1366.26px;
 }
 
 #rainbow-red {
-
+  animation: ;
+  stroke-dasharray: 1243.044px;
+  stroke-dashoffset: 1243.044px;
 }
