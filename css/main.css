@@ -8,6 +8,8 @@ h1 {
   bottom: 290px;
   z-index: 1;
   max-width: 180px;
+  opacity: 0;
+  animation: fade-in .5s .5s ease-in forwards;
 }
 
 #narwhal-body {
@@ -27,16 +29,17 @@ h1 {
 }
 
 #narwhal-eye{
-  animation: draw-eye 1s ease-in forwards;
+  opacity: 0;
+  animation: fade-in .5s .5s ease-in forwards;
   }
 
-@keyframes draw-eye {
+@keyframes fade-in {
   0% {
-
+    opacity: 0;
   }
 
   100% {
-
+    opacity: 1;
   }
 }
 
